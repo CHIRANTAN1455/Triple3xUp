@@ -6,13 +6,15 @@
         "type": "git",
         "url": "git+https://github.com/Danziger/slotjs.git"
     },
+    "bugs": {
+        "url": "https://github.com/Danziger/slotjs/issues"
+    },
     "main": "./src/app/main.js",
     "scripts": {
         "start": "npm run start:dev",
         "start:dev": "webpack-dev-server --mode development --hot --progress",
         "start:prod": "webpack-dev-server --mode production --hot --progress",
         "build": "npm run build:prod",
-        "build": "npm build --dist",
         "build:dev": "webpack --mode development --progress",
         "build:prod": "webpack --mode production --progress",
         "distclean": "rm -rf dist",
@@ -29,7 +31,9 @@
         "node": ">=18.0.0"
     },
     "dependencies": {
-        "core-js": "^3.32.0"
+        "core-js": "^3.32.0",
+        "fs": "^0.0.1-security",
+        "path": "^0.12.7"
     },
     "devDependencies": {
         "@babel/core": "^7.22.10",
@@ -44,7 +48,7 @@
         "copy-webpack-plugin": "^11.0.0",
         "css-loader": "^6.8.1",
         "css-minimizer-webpack-plugin": "^5.0.1",
-        "ejs": "^3.1.8",
+        "ejs": "^3.1.10",
         "ejs-compiled-loader": "^3.1.0",
         "eslint": "^8.47.0",
         "eslint-config-airbnb-base": "^15.0.0",
