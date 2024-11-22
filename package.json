@@ -2,6 +2,8 @@
     "name": "slotjs",
     "version": "1.0.0",
     "license": "MIT",
+    "author": "Chirantan Pradhan"
+    "name": "Chirantan"
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Danziger/slotjs.git"
