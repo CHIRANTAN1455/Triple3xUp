@@ -33,6 +33,11 @@
         "nuke": "rm -rf node_modules && rm package-lock.json",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
+    {
+  "scripts": {
+    "build": "[my-framework] build --output public"
+  }
+},
     "engines": {
         "npm": ">=9.0.0",
         "node": ">=18.0.0"
